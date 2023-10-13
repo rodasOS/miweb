@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #aaa;
+    border: 2px #333 solid;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.containerMax{
+    width: 100vw;
+    height: 80vh;
+    background-color:#ddd;
+    padding: 1em;
+    font-size: 1.3em;
+}
+.containerMax > p {
+    text-align: center;
+}
